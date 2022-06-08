@@ -1,4 +1,4 @@
-## using-opencv-to-control-a-servo
+## Controlling servo using opencv python
 The colour of the object is used to detect it, and then a contour is made around it.
 After that, we calculate the moment and use it to find the object's centre.
 This centre assists us in determining the location of the object within the box.
