@@ -1,9 +1,5 @@
 ## Controlling servo using opencv python
-The colour of the object is used to detect it, and then a contour is made around it.
-After that, we calculate the moment and use it to find the object's centre.
-This centre assists us in determining the location of the object within the box.
-Now, the data of the object's movement is communicated to the Arduino via serial port, and the servo is moved accordingly.
-The middle line divides the box into left and right as shown in the video.
+The object is located using its colour, after which a contour is drawn around it. The moment is then calculated and used to determine the object's centre. We can locate the object inside the box with the help of this centre. Now, the Arduino receives information about the object's movement via a serial port, and the servo is moved accordingly. As seen in the video, the middle line divides the box into the left and the right.
 
 
 
