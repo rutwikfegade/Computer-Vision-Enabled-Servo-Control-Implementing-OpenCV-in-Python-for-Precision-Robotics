@@ -1,4 +1,4 @@
-# Controlling servo using opencv python
+# Computer Vision-Enabled Servo Control: Implementing OpenCV in Python for Precision Robotics
 The object is located using its colour, after which a contour is drawn around it. The moment is then calculated and used to determine the object's centre. We can locate the object inside the box with the help of this centre. Now, the Arduino receives information about the object's movement via a serial port, and the servo is moved accordingly. As seen in the video, the middle line divides the box into the left and the right.
 This project aims to control motors or any other type of device using computer vision.
 
